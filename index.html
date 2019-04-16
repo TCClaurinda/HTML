@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sistema do Exercitando</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  
+  <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+      
+    <link rel="stylesheet" href="style/css/style.css">
+      
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-light navbar-dark" >
+  <a class="navbar-brand" href="#"><h3>Exercitando</h3></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="login.html">Login<span class="sr-only">(current)</span></a>
+      </li>
+	  <li class="nav-item active">
+        <a class="nav-link" href="cadastro.html">Cadastro</a>
+      </li>
+	  <li class="nav-item active">
+        <a class="nav-link" href="#">Ranking</a>
+      </li>
+	   <li  class="nav-item active">
+        <a class="nav-link" href="#">Cadastrar Perguntas</a>
+      </li>
+	  
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Sobre
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="quemsomos.html">Quem Somos</a>
+          <a class="dropdown-item" href="#">Contato</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="duvidas2.html">Dúvidas</a>
+        </div>
+      </li>
+      
+    </ul>
+	
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-3" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+      <button class="btn btn-light"  type="Enviar" >Enviar</button>
+    </form>
+  </div>
+  
+</nav>
+
+<!--Slider-->
+ 
+<div class="container">
+      
+          <div class="row">
+		  <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 250px; height: 250px;" src="exercitando.png" data-holder-rendered="true">
+          
+              <div class="col-12 text-center my-5">
+              
+                  <h1 class="display-3"><i class="fa fa-cogs text-primary" aria-hidden="true"></i> Bem-vindo ao Sistema Exercitando </h1>
+                  <p>Confira abaixo as informações gerais de uso.</p>
+              
+              </div>
+          
+          </div>
+          
+          <div class="row mb-5">
+          
+            <div class="col-sm-6 col-md-4 mb-3">
+              
+                <nav id="navbarVertical" class="navbar navbar-light bg-light">
+                
+                    <nav class="nav nav-pills flex-column">
+                    
+                        <a class="nav-link" href="#item1">Home</a>
+						<a class="nav-link" href="#item2">Login</a>
+						<a class="nav-link" href="#item3">Cadastro</a>
+						<a class="nav-link" href="#item4">Ranking</a>
+						<a class="nav-link" href="#item5">Cadastrar perguntas</a>
+						<a class="nav-link" href="#item5">Sobre</a>
+						
+                        
+                       <!-- <nav class="nav nav-pills flex-column">
+                        
+                            <a class="nav-link ml-3" href="#item1-1">Nullam fringilla</a>
+                            
+                            <a class="nav-link ml-3" href="#item1-2">Donec vel</a>
+                        
+                        </nav>
+                        
+                        <a class="nav-link my-2" href="#item2">Aenean rutrum</a>
+                        
+                        <a class="nav-link my-2" href="#item3">Ut eget</a>
+                        
+                        <nav class="nav nav-pills flex-column">
+                        
+                            <a class="nav-link ml-3" href="#item3-1">Nunc eget</a>
+                            
+                            <a class="nav-link ml-3" href="#item3-2">Ut consectetur</a>
+                        
+                        </nav>
+                    
+                    </nav> -->
+                
+                </nav>  
+              
+            </div>
+              
+            <div class="col-sm-6 col-md-8">
+              
+                <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
+                
+                    <h4 id="item1">Home</h4>
+                    <p> Na página Home tem uma descrição de cada funcionalidade que o sistema realiza, explicando sucitamente para o usuário. Além disso, pode ver alguns comentários dos participantes, relatando o que acha, o melhorou, e também avaliar o seu desempenho depois que começou a utilizar o Exercitando.</p>
+                    
+                    <h4 id="item2">Como fazer meu Login?</h4>
+                    <p>É simples! Precisa apenas ta cadastrado no sistema, é rápido e simples. Depois desse processo você  digitará o seu e-mail e a senha cadastrada e clicar no botão Login.</p>
+                    
+                    <h4 id="item3">Como me cadastro?</h4>
+                    <p> Tem o menu Cadastro, clicar nessa opção e será direcionado para se cadastrar, o formulário tem o nome, sobrenome, e-mail,endereço, cidade, estado, CEP. E quando preencher todos esses campos pode enviar, caso, tenha alguma dúvida use a opção ajuda.</p>
+                    
+                    <h4 id="item4">Pontuação</h4>
+                    <p>Você acompanhar a sua pontuação pelo sistema, para ver só precisa la logado.</p>
+                    
+                    <h4 id="item5">Quero cadastrar minhas perguntas para o aplicativo, como faço?</h4>
+                    <p>Precisa ser cadastrado como administrador, após isso o espaço será disponível. Que perguntará quantas questões deseja cadastrar e com quantas alternativas, após isso, digita no formulário e será enviado para o banco e quando desejar o game é so fazer a solicitação. </p>
+                    
+                    <h4 id="item4">Sobre</h4>
+                    <p>Conhecerá um pouco sobre a desenvolvedora desse sistema sobre a carreira  profissional. Tira dúvias em relação sobre algum acontecimento e contato.</p>
+                    
+                </div>  
+              
+            </div>
+          
+          </div>
+          
+         
+<br>
+
+<div class="container-fluid">
+<div class="row justify-content-center mb-5">
+  
+  <h4>Veja  aí alguns comentários dos que usam o nosso sistema...</h4>
+</div>
+
+<div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="imgs/antoniza.jpeg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Antoniza Morais</h2>
+            <p>Sou estudante de Tecnolgia em Telemática no IFCE campus Tauá, atualmente no sexto semestre. A partir do momento que o professor começou a utilizar o Exercitando as aulas ficaram mais divertidas e fácil de compreender. </p>
+            <p><a class="btn btn-primary"  role="button">Ver mais detalhes »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="imgs/mateus.jpeg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Mateus Loiola</h2>
+            <p>Curso Tecnologia em Telemática no IFCE Campus Tauá, natural de Piauí.É bem interessante de ser trabalhado na sala de aula, além de nivelar os conhecimentos, cria um lado competitivo com os colegas. A partir do momento que o professor começou a usar em aula, meu rendimento de conhecimento cresceu bastante e só tenho agradecer aos desenvolvedores.  </p>
+            <p><a class="btn btn-primary"  role="button">Ver mais detalhes »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="imgs/ayrllon.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Ayrllon Loiola</h2>
+            <p>Faço Licenciatura em Matemática pelo IFCE EAD do Juazeiro. É bastante viável essa tecnolgia dentro da sala de aula, ou seja, o aluno se diverte, aprende e ainda o professor acompanha o aluno. Futuramente desejo usar com meus alunos, aprovo e recomendo a todos.</p>
+            <p><a class="btn btn-primary"  role="button">Ver mais detalhes »</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+		
+		 <hr class="featurette-divider">
+
+ 
+<!-- FOOTER -->
+      <footer class="container" >
+       
+        <p>© 2017-2018 Sistema Exercitando. </p>
+      </footer>
+    </main>
+
+
+
+
+  
+</body>
+</html>
